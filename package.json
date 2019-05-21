@@ -1,7 +1,7 @@
 {
   "name": "call-external-api",
   "version": "1.0.0",
-  "description": "learn how to call an external api using node js.",
+  "description": "To call an external api using node js.",
   "main": "app.js",
   "scripts": {
     "test": "node app.js"
@@ -11,15 +11,17 @@
     "api",
     "call",
     "rest",
-    "martand",
-    "singh",
     "node",
     "web",
     "api"
   ],
-  "author": "Martand Singh (sniffer)",
   "license": "MIT",
   "dependencies": {
-    "request": "^2.87.0"
+    "axios": "^0.18.0",
+    "bootstrap": "^4.1.1",
+    "request": "^2.87.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-scripts": "3.0.0"
   }
 }
